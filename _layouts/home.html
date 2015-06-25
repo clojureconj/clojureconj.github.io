@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body class="index loading">
+		<div class="alt">
+		{% include header.html %}
+	</div>
+		
+		<!-- Banner -->		
+			<section id="banner">
+				
+				<!--
+					".inner" is set up as an inline-block so it automatically expands
+					in both directions to fit whatever's inside it. This means it won't
+					automatically wrap lines, so be sure to use line breaks where
+					appropriate (<br />).
+				-->
+				<div class="inner">
+					
+					<header>
+					  <h2>clojure / conj</h2>
+					</header>
+					<p>nov 16-18, 2015<br>
+					  Philadelphia, Pennsylvania<br>
+				  </p>
+					<footer>
+						<ul class="buttons vertical">
+							<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+						</ul>
+					</footer>
+				
+				</div>
+				
+			</section>
+		
+			<!-- Main -->
+			<article id="main">
+			
+			<header class="special container">
+					<span class="icon fa-bar-chart-o"></span>
+					<h2>Join us for Clojure/conj</h2>
+					<p>We are excited to head to Philadelphia this year for Clojure/conj!</p>
+			</header>
+
+<!--
+				          <ul class="buttons">
+					        <li><a href="speakers" class="button">list of speakers</a></li>
+				          </ul>
+-->
+								
+					</section>
+
+					
+				<!-- Three -->
+					<section class="wrapper style3 container special">
+					
+						<header class="major">
+						  <h2><a id="location">location</a></h2>
+						</header>
+				
+							<section>
+								<a href="http://www.sheratonphiladelphiasocietyhill.com/" class="image"><img src="images/sheraton.jpg" alt="Gerding Theater" /></a>
+								<header>
+								  <h3>&nbsp;<br>sheraton society hill</h3>
+								</header>
+								<p>One Dock Street (2nd and Walnut Streets) <br>
+								   Philadelphia, PA 19106 </p>
+							</section>
+							
+						<!--
+						<footer class="major">
+							<ul class="buttons">
+								<li><a href="#" class="button">See More</a></li>
+							</ul>
+						</footer>
+						-->
+							
+					</section>
+					
+				<!-- Sponsors -->
+				<!--
+					<section class="wrapper style3 container special">
+
+							<section>
+								<header>
+								  <h2>platinum sponsors</h2>
+								</header>
+							</section>
+													
+					</section>					
+				-->
+					
+			</article>
+
+		<!-- CTA -->
+			<section id="cta">
+			
+				<header>
+				  <h2>Ready to <strong>join us</strong>?</h2>
+				</header>
+				<footer>
+					<ul class="buttons">
+					<!--					  <li><a href="#" class="button special">register</a></li> -->
+					  <li><a href="sponsorship" class="button">sponsor</a></li>
+					  <!-- <li><a href="https://cognitect.wufoo.com/forms/clojurewest-2015-call-for-presentations/" class="button">submit talk</a></li> -->
+					</ul>
+				</footer>
+			
+			</section>	
+		
+		{% include footer.html %}
+	</body>
+</html>

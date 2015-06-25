@@ -1,0 +1,24 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://clojureconj.github.io
+title: Clojure/conj 2015
+email: events@cognitect.com
+description: > # "Clojure/conj 2015"
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/clojure_conj
