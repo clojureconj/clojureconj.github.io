@@ -528,6 +528,15 @@
             font-style: italic;
             font-size: 8pt;
         }
+        td.slot div.abstract {
+        	text-align: left;
+        }
+        td.slot div.abstract ul {
+        	list-style: inside;
+        	margin-top: 5px;
+        	margin-bottom: 5px;
+        	margin-left: 10px;
+        }
         th {
             font-size: 12pt;
             background: #FFF;
